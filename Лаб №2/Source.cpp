@@ -20,7 +20,7 @@ double function(double x) {
 }
 
 int main() {
-    double result = simpson_rule(function, 1, 2, 10);
+    double result = simpson_rule(function, 1, 2, 100000000);
     std::cout << "Приближенное значение интеграла: " << result << std::endl;
     return 0;
 }   
